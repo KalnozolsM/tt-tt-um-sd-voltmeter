@@ -1,20 +1,11 @@
-<!---
-
-This file is used to generate your project datasheet. Please fill in the information below and delete any unused
-sections.
-
-You can also include images in this folder and reference them in the markdown. Each image must be less than
-512 kb in size, and the combined size of all images must be less than 1 MB.
--->
-
 ## How it works
 
-Explain how your project works
+Multiplexer for a three 8-segment LED, from a sigma-delta adc
 
 ## How to test
 
-Explain how to use your project
+Hold rst_n low for a few clock cycles, then raise it. The pin table in info.yaml says what each input and output does.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+None.
